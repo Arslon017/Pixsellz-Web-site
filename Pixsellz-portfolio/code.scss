@@ -1,0 +1,1564 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Nunito+Sans:ital,wght@0,400;1,900&family=Rubik&family=Work+Sans:ital,wght@0,300;1,900&display=swap');
+
+body
+{
+    font-size: Inter;
+}
+
+.container
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar
+{
+    width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+    .navbarhamburger
+    {
+        display: none;
+        max-width: 420px;
+    }
+
+    .navbarimg
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .navbarimg1
+        {
+            width: 45px;
+        }
+
+        .navbara
+        {
+            text-decoration: none;
+            color: black;
+            margin-left: 12px;
+        }
+    }
+
+    .nav 
+    {
+        
+        .nav-ul
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .nav-li
+            {
+                list-style: none;
+                .nav-a
+                {
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+
+            .nav-div-a
+            {
+                background: rgba(36, 175, 181, 1);
+                width: 100px;
+                height: 30px;
+                margin-left: 12px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                justify-content: space-between;
+                border-radius: 5px;
+
+                .nav-div-a1
+                {
+                    text-decoration: none;
+                    width: 70px;
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .nav-div-img
+                {
+                    width: 45px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}
+
+.bir 
+{
+    .bir01
+    {
+        
+        width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 80px;
+
+        .bir2
+        {
+            width: 400px;
+
+            .birtxt2
+            {
+                width: 350px;
+                color: gray;
+            }
+        }
+    }
+
+    .birlink
+    {
+        background-color: rgba(36, 175, 181, 1);
+        width: 100px;
+        height: 30px;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .birlink1
+        {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    .bir3
+    {   
+        width: 1000px;
+        margin: 0 auto;
+        padding-top: 40px;
+        .bir3txt
+        {
+            color: gray;
+        }
+        .bir3misc
+        {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+.ikki
+{
+
+    .ikki01
+    {
+        display: flex;
+        justify-content: space-between;
+        width: 1000px;
+        margin: 0 auto;
+        padding-top: 80px;
+
+
+        .ikkiimg
+        {
+            .ikkiimg1
+            {
+                width: 500px;
+            }
+        }
+
+        .ikkitxt
+        {
+
+            width: 600px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+            .ikkitxt3
+            {
+                width: 350px;
+
+                .ikkitxt4
+                {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+            }
+
+            .ikkitxt5
+            {
+                width: 390px;
+
+
+                .ikkitxt6
+                {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+
+            .ikkitxt7
+            {
+                color: rgba(36, 175, 181, 1);
+
+            }
+        }
+    }
+}
+hr
+{
+    margin-top: -2.5px;
+
+}
+
+
+.uch
+{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .uch01
+    {
+        width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+
+        .uchtxt
+        {
+            width: 380px;
+
+            .uchtxt1
+            {
+                font-size: 20px;
+            }
+
+            .uchtxt2
+            {
+                font-size: 15px;
+                color: gray;
+            }
+        }
+
+        .uchinput
+        {
+            width: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            .uchinputa
+            {
+                width: 308px;
+                margin-right: 20px;
+                
+                .uchinputa1
+                {
+                    width: 300px;
+                    height: 30px;
+                }
+            }
+
+            .uchinputa2
+
+            {
+                background-color: rgba(36, 175, 181, 1);
+                width: 120px;
+                height: 35px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 5px;
+                
+                .uchinputa3
+                {
+
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+
+        }
+    }
+}
+
+.tort
+{
+    margin-top: 40px;
+    .tort01
+    {   
+        width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+
+        .tort2
+        {
+            .torttxt20
+            {
+
+                .torttxt21
+                {
+                    width: 450px;
+                }
+            }
+        }
+
+        .tort1 
+        {
+            width: 600px;
+
+            .torttxt4
+            {
+                width: 330px;
+                color: gray;
+            }
+
+            .torttxt5
+            {
+                width: 450px;
+                display: flex;
+                justify-content: space-between;
+
+                .torttxt6
+                {
+                    background-color: rgba(219, 219, 219, 1);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 200px;
+                    border-radius: 6px;
+
+                    .torttxt7
+                    {
+                        width: 60px;
+
+                        .torttxt8
+                        {
+                            font-size: 40px;
+                            color: gray;
+                        }
+                    }
+
+                    .torttxt9
+                    {
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        align-items: center;
+
+                        .torttxt9a
+                        {
+
+                            .torttxt10
+                            {
+                                text-decoration: none;
+                                color: gray;
+                            }
+                        }
+
+                        .torttxt9a1
+                        {
+
+                            .torttxt11
+                            {
+
+                                text-decoration: none;
+                                color: gray;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+
+                }
+
+
+
+
+                .torttxt12
+                {
+                    background-color: rgba(219, 219, 219, 1);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 200px;
+                    border-radius: 6px;
+
+                    .torttxt13
+                    {
+                        width: 60px;
+
+                        .torttxt14
+                        {
+                            font-size: 40px;
+                            color: gray;
+                        }
+                    }
+
+                    .torttxt15
+                    {
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        align-items: center;
+
+                        .torttxt15a
+                        {
+
+                            .torttxt16
+                            {
+                                text-decoration: none;
+                                color: gray;
+                            }
+                        }
+
+                        .torttxt15a1
+                        {
+
+                            .torttxt17
+                            {
+
+                                text-decoration: none;
+                                color: gray;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .torttxt18
+        {
+            color: gray;
+            width: 320px;
+            font-size: 12px;
+        }
+    }
+}
+
+
+.besh
+{
+    margin-top: 80px;
+
+    .beshtxt
+    {
+        width: 500px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+        .beshtxt1media
+        {
+            display: none;
+        }
+
+        .beshtxt2
+        {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+    }
+
+    .besh01
+    {
+
+        display: flex;
+        justify-content: space-between;
+        .besh1 
+        {
+             width: 300px;
+            border: solid;
+            border-width: 2.2px;
+            border-color: whitesmoke;
+            border-radius: 8px;
+            .besh2img 
+            {   
+                width: 150px;
+                display: flex;
+                justify-content: center;
+                align-items:  center;
+
+                .besh2img1
+                {
+                    margin-top: -30px;
+                    margin-left: 30px;
+                }
+
+
+            }
+
+            .besh1img2
+            {
+                .besh1img3
+                {
+                    color: gray;
+                }
+            }
+
+            .besh1img4
+            {
+                display: flex;
+                justify-content: center;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+
+
+
+
+
+
+        .besh2 
+        {
+             width: 300px;
+            border: solid;
+            border-width: 2.2px;
+            border-color: whitesmoke;
+            border-radius: 8px;
+            .besh2img 
+            {   
+                width: 150px;
+                display: flex;
+                justify-content: center;
+                align-items:  center;
+
+                .besh2img1
+                {
+                    margin-top: -30px;
+                    margin-left: 30px;
+                }
+
+
+            }
+
+            .besh2img2
+            {
+                .besh2img3
+                {
+                    color: gray;
+                }
+            }
+
+            .besh2img4
+            {
+                display: flex;
+                justify-content: center;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+
+
+
+
+
+        .besh3 
+        {
+             width: 300px;
+            border: solid;
+            border-width: 2.2px;
+            border-color: whitesmoke;
+            border-radius: 8px;
+            .besh3img 
+            {   
+                width: 150px;
+                display: flex;
+                justify-content: center;
+                align-items:  center;
+
+                .besh3img1
+                {
+                    margin-top: -30px;
+                    margin-left: 30px;
+                }
+
+
+            }
+
+            .besh3img2
+            {
+                .besh3img3
+                {
+                    color: gray;
+                }
+            }
+
+            .besh3img4
+            {
+                display: flex;
+                justify-content: center;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+
+    }
+
+    .beshdot
+    {
+        width: 10px;
+        margin: 0 auto;
+        margin-top: 70px;
+    }
+}
+.olti
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+
+    .oltitxt
+    {
+        width: 400px;
+        font-size: 15px;
+    }
+
+    .yetti
+    {
+        background: rgba(36, 175, 181, 1);
+        width: 100px;
+        height: 30px;
+        margin-left: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 5px;
+        
+        .yettia
+        {
+            text-decoration: none;
+            width: 70px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .yettiimg
+        {
+            width: 45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.sakkiz
+{
+    margin-top: 70px;
+    .sakkiz01
+    {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+
+
+        .sakkiz1
+        {
+            width: 500px;
+
+            .sakkiz1img
+            {
+                width: 120px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .sakkiz1img2
+            {   width: 305px;
+
+                .sakkiz1img3
+                {
+
+                    .sakkiz1img3span
+                    {
+                        padding-top: 20px;
+                    }
+                }
+            }
+        }
+
+        .sakkizmedia
+        {
+            display: none;
+        }
+    }
+}
+
+.toqqiz
+{
+    background-color: rgba(219, 219, 219, 1);
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    .toqqizimg
+    {
+        display: none;
+    }
+
+    .toqqiztxt
+    {   
+        width: 500px;
+        .toqqiztxt1
+        {
+            color: gray;
+            font-size: 12px;
+            width: 400px;
+            margin: 0 auto;
+        }
+    }
+
+    .toqqiznav
+    {   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .toqqiz-ul
+        {
+            display: flex;
+            list-style: none;
+            width: 400px;
+            font-size: 12px;
+            margin-right: 20px;
+
+            .toqqiz-li
+            {
+
+                .toqqiza 
+                {
+                    text-decoration: none;
+                    color: black;
+                    margin-left: 18px;
+                }
+            }
+        }
+
+
+        .toqqiznav-icons
+        {
+
+            width: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+
+@media (max-width: 420px)
+{
+    .container
+    {
+        max-width: 1150px;
+        // background-color: red;
+    }
+
+ .navbar
+ {
+    max-width: 1000px;
+    .navbarimg 
+    {
+        .navbara
+        {
+            display: none;
+        }
+        .navbarimg1
+        {
+            width: 100px;
+        }
+    }
+
+    .nav 
+    {
+        display: none;
+    }
+    .navbarhamburger
+    {
+        display: inline;
+        max-width: 500px;
+
+        .navbarhamburger1
+        {
+            width: 100px;
+        }
+    }
+ }
+
+ .bir
+ {  
+
+    .bir01
+    {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        height: auto;
+
+        .bir1 
+        {
+            .birimg
+            {
+                width: 1000px;
+
+                .birimg1
+                {
+                    width: 1000px;
+                    margin-left: -10vh;
+                }
+            }
+        }
+
+        .bir2 
+        {
+            width: 850px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+            .birtxt 
+            {
+                margin-left: -10vh;
+
+                .birtxt1
+                {
+                    font-size: 80px;
+                }
+            }
+
+
+            .birtxt2
+            {
+                margin-left: -55vh;
+                margin-top: -10vh;
+                width: 600px;
+                
+                .birtxt3
+                {
+                    font-size: 60px;
+                    color: black;
+                }
+            }
+
+
+            .birlink
+            {
+
+                width: 300px;
+                height: 100px;
+                margin-left: -95vh;
+                border-radius: 20px;
+
+                .birlink1
+                {
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+
+    .bir3
+    {
+
+
+
+        .bir3txt
+        {
+            .bir3txt1
+            {
+                font-size: 50px;
+            }
+        }
+
+        .bir3misc
+        {
+            width: 900px;
+            display: flex;
+            flex-direction: column;
+
+            .bir3misc1
+            {
+
+                .bir3misc2
+                {
+                    width: 350px;
+                }
+            }
+
+            .bir3misc3
+            {
+                margin-left: 25em;
+                margin-top: -6.7em;
+                .bir3misc4
+                {
+                    width: 350px;
+                }
+            }
+
+            .bir3misc5
+            {
+                
+                .bir3misc6
+                {
+                    width: 350px;
+                }
+            }
+        }
+
+        .bir3misc7
+        {
+
+            margin-left: 25em;
+            margin-top: -5.1em;
+
+            .bir3misc8
+            {
+                width: 350px;
+            }
+        }
+
+        .bir3misc9
+        {
+            margin-top: 2em;
+            .bir3misc10
+            {
+                width: 350px;
+            }
+        }
+    }
+ }
+
+ .ikki
+ {
+
+    .ikki01
+    {
+        display: flex;
+        flex-direction: column-reverse;
+
+        .ikkiimg
+        {
+            width: 1200px;
+            margin-left: -15vh;
+
+            .ikkiimg1
+            {
+                width: 1180px;
+                height: 900px;
+            }
+        }
+
+        .ikkitxt
+        {
+            width: 1000px;
+
+            .ikkitxt1
+            {
+
+                .ikkitxt2
+                {
+                    font-size: 50px;
+                }
+            }
+
+            .ikkitxt3
+            {
+                width: 1000px;
+                .ikkitxt4
+                {
+                    font-size: 100px;
+                }
+            }
+
+            .ikkitxt5
+            {
+                width: 750px;
+                .ikkitxt6
+                {
+                    font-size: 60px;
+
+                }
+            }
+
+            .ikkitxt7
+            {
+                
+                .ikkitxt8
+                {
+                    font-size: 50px;
+                }
+            }
+        }
+    }
+ }
+
+
+ .uch
+ {
+    // background-color: yellow;
+    margin-top: 10em;
+    .uch01
+    {
+        display: flex;
+        flex-direction: column;
+
+        .uchtxt
+        {
+            margin-left: -40em;
+
+            .uchtxt1
+            {
+                font-size: 60px;
+            }
+            .uchtxt2
+            {
+                font-size: 40px;
+                width: 700px;
+                color: black;
+            }
+        }
+
+        .uchinput
+        {
+            margin-left: -30em;
+            display: flex;
+            flex-direction: column;
+
+            .uchinputa
+            {   
+                margin-left: -10em;
+
+                .uchinputa1
+                {
+                    width: 700px;
+                    background-color: white;
+                    height: 70px;
+                }
+            }
+            
+                            .uchinputa2
+                            {
+                                width: 250px;
+                                height: 80px;
+                                margin-left: -15em;
+                                margin-top: 1em;
+
+                                .uchinputa3
+                                {
+                                    font-size: 40px;
+                                }
+                            }
+        }
+
+    }
+ }
+
+ .tort
+ {
+     margin-top: 10em;
+
+    .tort01
+    {
+        display: flex;
+        flex-direction: column;
+
+        .tort1
+        {
+            margin-left: -30em;
+            .torttxt 
+            {
+                display: none;
+            }
+
+            .torttxt2 
+            {
+
+                .torttxt3 
+                {
+                    font-size: 80px;
+                }
+            }
+            .torttxt4
+            {
+                width: 500px;
+                .torttxt41
+                {
+                    font-size: 40px;
+                    color: black;
+                }
+            }
+
+            .torttxt5
+            {
+                display: flex;
+                flex-direction: column;
+
+                .torttxt6
+                {
+                    width: 300px;
+                    height: 100px;
+                    border-radius: 15px;
+
+                    .torttxt7
+                    {
+                        width: 100px;
+                        .torttxt8
+                        {
+                            font-size: 70px;
+                        }
+
+
+                    }
+
+                    .torttxt9
+                    {
+                        
+                        .torttxt9a
+                        {
+
+                            .torttxt10
+                            {
+                                font-size: 25px;
+                            }
+                        }
+
+                        .torttxt9a1
+                        {
+
+                            .torttxt11
+                            {
+                                font-size: 30px;
+                            }
+                        }
+                    }
+                }
+
+
+
+
+
+
+                .torttxt12
+                {
+                    width: 300px;
+                    height: 100px;
+                    margin-top: 1em;
+                    border-radius: 15px;
+
+                    .torttxt13
+                    {
+                        width: 100px;
+                        .torttxt14
+                        {
+                            font-size: 70px;
+                        }
+
+
+                    }
+
+                    .torttxt15
+                    {
+                        
+                        .torttxt15a
+                        {
+
+                            .torttxt16
+                            {
+                                font-size: 25px;
+                            }
+                        }
+
+                        .torttxt15a1
+                        {
+
+                            .torttxt17
+                            {
+                                font-size: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .torttxt18
+            {
+
+                font-size: 30px;
+                width: 600px;
+                font-weight: 200;
+            }
+        }
+        .tort2
+        {
+    
+            .torttxt20
+            {
+                width: 1100px;
+                margin-left: -2em;
+
+                .torttxt21
+                {
+                    width: 1100px;
+                    height: 1000px;
+                }
+            }
+        }
+
+
+    }
+ }
+
+
+ .besh
+ {
+     .beshtxt
+     {
+         .beshtxt1 
+         {
+             display: none;
+         }
+         .beshtxt1media
+         {
+             display: flex;
+             font-size: 80px;
+         }
+
+         .beshtxt2
+         {
+             font-size: 40px;
+             width: 800px;
+         }
+     }
+
+    .besh01
+    {
+
+        .besh1
+        {
+            display: none;
+        }
+        .besh3
+        {
+            display: none;
+        }
+
+        .besh2
+        {
+            width: 700px;
+            height: 700px;
+            margin-left: 13em;
+
+
+            .besh2img
+            {
+                width: 700px;
+                display: flex;
+                justify-content: space-between;
+                .besh2img11
+                {
+                    width: 200px;
+                }
+                .besh2img1
+                {
+                    margin-top: 5em;
+                    width: 80px;
+                }
+            }
+
+            .besh2img2
+            {
+                width: 550px;
+                margin-left: 4em;
+                .besh2img3
+                {
+                    font-size: 40px;
+                }
+            }
+
+            .besh2img4
+            {   
+                display: flex;
+                flex-direction: column;
+                margin-left: -20em;
+
+                .besh2img5
+                {
+                    .besh2img6
+                    {
+                        font-size: 40px;
+                    }
+                }
+
+                .besh2img7
+                {
+                    .besh2img8
+                    {
+                        width: 70px;
+                    }
+                }
+            }
+        }
+    }
+ }
+
+ .olti
+ {
+     display: flex;
+     flex-direction: column;
+
+     .oltitxt
+     {
+         width: 800px;
+         margin-left: -15em;
+         .oltitxt1
+         {
+             font-size: 100px;
+         }
+     }
+
+     .yetti
+     {
+         width: 400px;
+         height: 120px;
+         margin-left: -40em;
+
+         .yettia
+         {  
+             font-size: 70px;
+             margin-left: 1em;
+         }
+
+         .yettiimg
+         {
+            margin-left: -1em;
+            width: 80px;
+            .yettiimg1
+            {
+                width: 300px;
+            }
+         }
+     }
+ }
+
+ .sakkiz
+ {
+     .sakkiz01
+     {
+         display: flex;
+         flex-direction: column-reverse;
+         .sakkiz1
+         {
+             display: none;
+         }
+
+         .sakkizmedia
+         {  
+             display: inline-block;
+             .sakkizmediasub
+             {
+                 font-size: 60px;
+                 margin-left: -2.9em;
+             }
+             .sakkizmedia01
+             {
+
+                 display: flex;
+
+                 .sakkizmedia02
+                 {
+                     width: 500px;
+                     height: 70px;
+
+                     .sakkizmedia1 
+                     {
+                         width: 500px;
+                         height: 60px;
+                         background-color: white;
+                     }
+                 }
+
+                 .sakkizmedia2 
+                 {
+                     background-color: rgba(36, 175, 181, 1);
+                     width: 150px;
+                     margin-left: 2em;
+                     border-radius: 10px;
+                     display: flex;
+                     justify-content: center;
+                     align-items: center;
+
+                     .sakkizmedia3
+                     {
+                         width: 60px;
+                     }
+                 }
+    
+            }
+
+            .sakkizmediap
+            {   
+                width: 700px;
+                .sakkizmediap1
+                {
+                    font-size: 40px;
+                    color: gray;
+                }
+            }
+         }
+
+         .sakkiz2 
+         {
+            margin-left: -40em;
+            .sakkiz2txt
+            {
+
+                .sakkiz2txt1
+                {
+                    font-size: 60px;
+                }
+
+                .sakkiz2txt2
+                {
+                    font-size: 55px;
+                }
+            }
+         }
+
+
+
+
+         .sakkiz3 
+         {
+            margin-left: -40em;
+            .sakkiz3txt
+            {
+
+                .sakkiz3txt1
+                {
+                    font-size: 60px;
+                }
+
+                .sakkiz3txt2
+                {
+                    font-size: 55px;
+                }
+            }
+         }
+
+
+         .sakkiz4 
+         {
+            margin-left: -40em;
+            .sakkiz4txt
+            {
+
+                .sakkiz4txt1
+                {
+                    font-size: 60px;
+                }
+
+                .sakkiz4txt2
+                {
+                    font-size: 55px;
+                }
+            }
+         }
+
+
+
+     }
+ }
+
+
+ .toqqiz
+ {
+     display: flex;
+     flex-direction: column;
+    //  height: 250px;
+
+     .toqqizimg
+     {
+         display: inline-block;
+         width: 200px;
+         height: 200px;
+         margin-left: -50em;
+         .toqqizimg1
+         {
+             width: 150px;
+         }
+     }
+
+     .toqqiztxt
+     {
+         margin-left: -32em;
+
+         .toqqiztxt1
+         {
+             font-size: 40px;
+             width: 600px;
+         }
+     }
+
+     .toqqiznav
+     {
+        margin-top: 40px;
+        .toqqiz-ul
+        {
+            display: none;
+        }
+
+        .toqqiznav-icons
+        {
+            width: 900px;
+            margin-left: -45em;
+
+            .toqqiznav-icons1
+            {
+                width: 60px;
+                margin-left: 40px;
+            }
+        }
+     }
+
+ }
+}
